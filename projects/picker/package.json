@@ -1,7 +1,7 @@
 {
-  "name": "@danielmoncada/angular-datetime-picker-moment-adapter",
-  "version": "3.0.1",
-  "description": "Angular Date Time Picker (MomentJs Adpater)",
+  "name": "@khajegan/angular-datetime-picker-moment-adapter",
+  "version": "17.0.0",
+  "description": "Angular Date Time Picker (MomentJs Adapter)",
   "keywords": [
     "Angular",
     "datepicker",
@@ -19,16 +19,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielmoncada/date-time-picker-moment-adapter.git"
+    "url": "git+https://github.com/khajegan/date-time-picker-moment-adapter.git"
   },
-  "homepage": "https://github.com/danielmoncada/date-time-picker-moment-adapter",
+  "homepage": "https://github.com/khajegan/date-time-picker-moment-adapter",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/cdk": "^13.0.3 || ^14.0.0 || ^15.0.0 || ^16.0.0",
-    "@angular/common": "^13.0.3 || ^14.0.0 || ^15.0.0 || ^16.0.0",
-    "@angular/core": "^13.0.3 || ^14.0.0 || ^15.0.0 || ^16.0.0",
+    "@angular/cdk": "^13.0.3 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
+    "@angular/common": "^13.0.3 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
+    "@angular/core": "^13.0.3 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
     "moment": "^2.29.1"
   },
   "dependencies": {
@@ -36,5 +36,12 @@
   },
   "devDependencies": {
     "@danielmoncada/angular-datetime-picker": "^14.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/khajegan/date-time-picker-moment-adapter/issues"
+  },
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
